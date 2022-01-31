@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import resume from "../../assets/files/Updated March 2021.pdf";
+import resume from "../../assets/files/Updated February 2022.pdf";
 
 const Anchors = () => {
     const anchorsArr = ["Projects", "Experience", "About"];
@@ -22,7 +22,7 @@ export default class Header extends Component {
                     </div>
                     <div className="col flex slide-in-blurred-right">
                         <div className="full-options">
-                            <a href={resume} target="_blank"> 
+                            <a href={resume} target="_blank">
                                 <div className="resume-link">
                                     View Resume
                                 </div>
