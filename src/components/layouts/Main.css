@@ -130,13 +130,12 @@
   margin-top: 2rem;
 }
 
-b,
-strong {
+b,strong {
   font-weight: bold !important;
 }
 
 .me {
-  width: 38vw;
+  width: 40vw;
   max-width: 500px;
   height: auto;
 	vertical-align: middle;

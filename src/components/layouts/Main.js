@@ -12,11 +12,14 @@ export default class MainPage extends Component {
               <div className="banner-content slide-in-blurred-left">
                 <h1>Welcome! <span role="img" aria-label="Hand">👋</span></h1>
                 <p>
-                  My name is <b>Sabina Bialic</b> and I recently graduated from
-                  <b> Carleton University</b> with an <b> Honours Bachelor
-                  of Computer Science</b> in the Management and Business Systems 
-                  stream.
-                  </p>
+                  My name is <b>Sabina Bialic</b> and I am a <b>Developer</b> at
+                  Employment and Social Development Canada to implement and 
+                  modernize programs within the department.
+                </p>
+                <p>
+                  My interests include fullstack development, cross-platform development
+                  and blockchain. I love to learn and work on new projects in my personal time!
+                </p>
               </div>
             </div>
             <div className="table-cell slide-in-blurred-bottom">

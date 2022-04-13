@@ -33,15 +33,15 @@ export default class Projects extends Component {
                       </div>
 
                       <div className="col3">
-                        <a class="action-button" href="https://github.com/sabinabialic/HiitMe-Interval-Timer" target="_blank">
+                        <a class="action-button" href="https://github.com/sabinabialic/HiitMe-Interval-Timer" rel="noreferrer" target="_blank">
                           <span class="action-button-text">Github</span>
                           <span class="action-button-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
                         </a>
-                        <a class="action-button" href="https://play.google.com/store/apps/details?id=com.greydanedevelopment.hiitme_interval_timer" target="_blank">
+                        <a class="action-button" href="https://play.google.com/store/apps/details?id=com.greydanedevelopment.hiitme_interval_timer" rel="noreferrer" target="_blank">
                           <span class="action-button-text">Google Play</span>
                           <span class="action-button-icon"><i class="fab fa-google-play" aria-hidden="true"></i></span>
                         </a>
-                        <a class="action-button" href="https://apps.apple.com/ca/app/hiitme-interval-timer/id1564361054" target="_blank">
+                        <a class="action-button" href="https://apps.apple.com/ca/app/hiitme-interval-timer/id1564361054" rel="noreferrer" target="_blank">
                           <span class="action-button-text">App Store</span>
                           <span class="action-button-icon"><i class="fab fa-app-store" aria-hidden="true"></i></span>
                         </a>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import resume from "../../assets/files/Updated February 2022.pdf";
+import resume from "../../assets/files/SabinaBialicResume.pdf";
 
 const Anchors = () => {
     const anchorsArr = ["Projects", "Experience", "About"];
@@ -16,13 +16,13 @@ export default class Header extends Component {
                     <div className="col">
                         <div className="logo slide-in-blurred-top">
                             <span className="full-name">
-                                <h1>Sabina Bialic</h1>
+                                <h1>SABINA BIALIC</h1>
                             </span>
                         </div>
                     </div>
                     <div className="col flex slide-in-blurred-right">
                         <div className="full-options">
-                            <a href={resume} target="_blank">
+                            <a href={resume} rel="noreferrer" target="_blank">
                                 <div className="resume-link">
                                     View Resume
                                 </div>

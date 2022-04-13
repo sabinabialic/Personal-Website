@@ -14,19 +14,19 @@ export default class Footer extends Component {
                 <div className="col-md-6 offset-md-3 social">
                   <div className="container">
                     <div className="row justify-content-md-center">
-                      <a className="no-underline" href="https://www.linkedin.com/in/sabina-bialic/" target="_blank">
+                      <a className="no-underline" href="https://www.linkedin.com/in/sabina-bialic/" rel="noreferrer"  target="_blank">
                         <div className="col-md-auto name">
                           <i className="fab fa-linkedin social-icon"></i>
                             LinkedIn
                         </div>
                       </a>
-                      <a className="no-underline" href="https://github.com/sabinabialic" target="_blank">
+                      <a className="no-underline" href="https://github.com/sabinabialic" rel="noreferrer" target="_blank">
                         <div className="col-md-auto name">
                           <i className="fab fa-github social-icon"></i>
                             Github
                         </div>
                       </a>
-                      <a className="no-underline in-line" href="mailto:sabina.bialic@gmail.com" target="_blank">
+                      <a className="no-underline in-line" href="mailto:sabina.bialic@gmail.com" rel="noreferrer" target="_blank">
                         <div className="col-md-auto name">
                           <i className="far fa-envelope social-icon"></i>
                             Email
@@ -67,7 +67,7 @@ export default class Footer extends Component {
 
             <div className="created-by">
                 I built this site using <b>Javascript</b> and <b>React.</b>
-                You can find the source code <a href="https://github.com/sabinabialic/website" target="_blank">here</a>.
+                You can find the source code <a href="https://github.com/sabinabialic/website" rel="noreferrer" target="_blank">here</a>.
             </div>
 
 
