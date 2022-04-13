@@ -1,27 +1,16 @@
 {
-  "files": {
-    "main.css": "/static/css/main.91064269.chunk.css",
-    "main.js": "/static/js/main.4053a4ed.chunk.js",
-    "main.js.map": "/static/js/main.4053a4ed.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9b126251.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9b126251.js.map",
-    "static/js/2.12358707.chunk.js": "/static/js/2.12358707.chunk.js",
-    "static/js/2.12358707.chunk.js.map": "/static/js/2.12358707.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6e7bc0dd0c165accfd99a7e14cbe2b18.js": "/precache-manifest.6e7bc0dd0c165accfd99a7e14cbe2b18.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.91064269.chunk.css.map": "/static/css/main.91064269.chunk.css.map",
-    "static/js/2.12358707.chunk.js.LICENSE.txt": "/static/js/2.12358707.chunk.js.LICENSE.txt",
-    "static/media/HiitMe.png": "/static/media/HiitMe.35e78618.png",
-    "static/media/App.css": "/static/media/Roboto-Regular.11eabca2.ttf",
-    "static/media/Updated February 2022.pdf": "/static/media/Updated February 2022.36f62821.pdf",
-    "static/media/dp.jpg": "/static/media/dp.b5e02104.jpg",
-    "static/media/virtamove.png": "/static/media/virtamove.028e2b0a.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.9b126251.js",
-    "static/js/2.12358707.chunk.js",
-    "static/css/main.91064269.chunk.css",
-    "static/js/main.4053a4ed.chunk.js"
-  ]
+  "main.css": "static/css/main.aa095580.css",
+  "main.css.map": "static/css/main.aa095580.css.map",
+  "main.js": "static/js/main.c03d68dd.js",
+  "main.js.map": "static/js/main.c03d68dd.js.map",
+  "static/media/HiitMe.png": "static/media/HiitMe.35e78618.png",
+  "static/media/Montserrat-Bold.ttf": "static/media/Montserrat-Bold.ade91f47.ttf",
+  "static/media/Montserrat-Regular.ttf": "static/media/Montserrat-Regular.ee653992.ttf",
+  "static/media/Raleway-Bold.ttf": "static/media/Raleway-Bold.f49f3d2d.ttf",
+  "static/media/Raleway-Regular.ttf": "static/media/Raleway-Regular.9942588a.ttf",
+  "static/media/Roboto-Bold.ttf": "static/media/Roboto-Bold.e07df86c.ttf",
+  "static/media/Roboto-Regular.ttf": "static/media/Roboto-Regular.11eabca2.ttf",
+  "static/media/SabinaBialicResume.pdf": "static/media/SabinaBialicResume.91bde694.pdf",
+  "static/media/dp.jpg": "static/media/dp.b5e02104.jpg",
+  "static/media/virtamove.png": "static/media/virtamove.028e2b0a.png"
 }
