@@ -13,12 +13,12 @@ export default class MainPage extends Component {
                 <h1>Welcome! <span role="img" aria-label="Hand">👋</span></h1>
                 <p>
                   My name is <b>Sabina Bialic</b> and I am a <b>Developer</b> at
-                  Employment and Social Development Canada to implement and 
+                  Employment and Social Development Canada, working to implement and 
                   modernize programs within the department.
                 </p>
                 <p>
                   My interests include fullstack development, cross-platform development
-                  and blockchain. I love to learn and work on new projects in my personal time!
+                  and blockchain technologies. I love to learn and work on new projects in my personal time!
                 </p>
               </div>
             </div>
