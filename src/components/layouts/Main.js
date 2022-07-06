@@ -12,9 +12,8 @@ export default class MainPage extends Component {
               <div className="banner-content slide-in-blurred-left">
                 <h1>Welcome! <span role="img" aria-label="Hand">👋</span></h1>
                 <p>
-                  My name is <b>Sabina Bialic</b> and I am a <b>Developer</b> at
-                  Employment and Social Development Canada, working to implement and 
-                  modernize programs within the department.
+                  My name is <b>Sabina Bialic</b> and I am a <b>Software Developer</b> at
+                  SAP working on the development of the Marketing Cloud product.
                 </p>
                 <p>
                   My interests include fullstack development, cross-platform development
