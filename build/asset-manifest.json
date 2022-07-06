@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.fad01fa9.css",
-  "main.css.map": "static/css/main.fad01fa9.css.map",
-  "main.js": "static/js/main.636d19c4.js",
-  "main.js.map": "static/js/main.636d19c4.js.map",
+  "main.css": "static/css/main.031dea6e.css",
+  "main.css.map": "static/css/main.031dea6e.css.map",
+  "main.js": "static/js/main.cb378f51.js",
+  "main.js.map": "static/js/main.cb378f51.js.map",
   "static/media/HiitMe.png": "static/media/HiitMe.35e78618.png",
   "static/media/Montserrat-Bold.ttf": "static/media/Montserrat-Bold.ade91f47.ttf",
   "static/media/Montserrat-Regular.ttf": "static/media/Montserrat-Regular.ee653992.ttf",
@@ -12,5 +12,6 @@
   "static/media/Roboto-Regular.ttf": "static/media/Roboto-Regular.11eabca2.ttf",
   "static/media/SabinaBialicResume.pdf": "static/media/SabinaBialicResume.91bde694.pdf",
   "static/media/dp.jpg": "static/media/dp.b5e02104.jpg",
+  "static/media/sap.png": "static/media/sap.610af945.png",
   "static/media/virtamove.png": "static/media/virtamove.028e2b0a.png"
 }
