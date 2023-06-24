@@ -195,7 +195,7 @@
 .text-black p {color: rgb(68, 68, 68);}
 
 @media (max-width: 800px) {
-  .experience-title {margin-top: 60px;}
+  .experience-title {margin-top: 30%;}
 
   .parent {
     display: grid;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Main.css';
-import art from '../../assets/images/dp.jpg';
+import art from '../../assets/images/newdp.jpeg';
 
 export default class MainPage extends Component {
   render() {
