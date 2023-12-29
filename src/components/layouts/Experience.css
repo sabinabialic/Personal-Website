@@ -1,7 +1,6 @@
 .experience-wrapper {
   width: 90%;
   margin: 0 auto;
-  margin-top: 10%;
   margin-bottom: 10%;
 }
 
@@ -10,7 +9,8 @@
   font-size: 38px;
   color: #3c3b48;
   font-weight: 600;
-  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 .parent {
@@ -132,7 +132,7 @@
 }
 
 .company-image-esdc {
-  width: 90%;
+  width: 85%;
   position: absolute;
   display: block;
   top: 50%;
@@ -195,7 +195,7 @@
 .text-black h5 {color: #3c3b48;}
 .text-black p {color: rgb(68, 68, 68);}
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .experience-title {margin-top: 500px;}
 
   .parent {

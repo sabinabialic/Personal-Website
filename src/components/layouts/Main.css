@@ -91,7 +91,6 @@
 
 .main-wrapper {
   width: 90%;
-  height: calc(100vh - 150px);
   margin: 0 auto;
 }
 
@@ -135,14 +134,14 @@ b,strong {
 }
 
 .me {
-  width: 45vw;
+  width: 40vw;
   max-width: 400px;
   height: auto;
 	vertical-align: middle;
 }
 
-/*For screens of 800px or less*/
-@media only screen and (max-width: 800px) {
+/*For screens of 900px or less*/
+@media only screen and (max-width: 900px) {
   .main-wrapper {width: 70%; padding-bottom: 100px;}
   .table,
   .table-cell {display: block;}

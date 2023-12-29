@@ -240,7 +240,7 @@
 }
 
 /* On screens that are 800 or less */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 	.logo {
 	   float: center;
 	   text-align: center;

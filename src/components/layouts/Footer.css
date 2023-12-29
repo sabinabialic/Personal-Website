@@ -42,7 +42,7 @@
 .mobile-footer { visibility: hidden;}
 .web-footer { visibility: unset;}
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .footer-wrapper {
         margin-top: auto;
     }
