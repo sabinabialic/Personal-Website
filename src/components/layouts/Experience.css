@@ -1,6 +1,7 @@
 .experience-wrapper {
   width: 90%;
   margin: 0 auto;
+  margin-top: 10%;
   margin-bottom: 10%;
 }
 
@@ -122,7 +123,7 @@
 }
 
 .company-image-sap {
-  width: 80%;
+  width: 70%;
   position: absolute;
   display: block;
   top: 50%;
@@ -149,7 +150,7 @@
 }
 
 .company-image-healthcanada {
-  width: 90%;
+  width: 80%;
   position: absolute;
   display: block;
   top: 50%;
@@ -195,7 +196,7 @@
 .text-black p {color: rgb(68, 68, 68);}
 
 @media (max-width: 800px) {
-  .experience-title {margin-top: 30%;}
+  .experience-title {margin-top: 500px;}
 
   .parent {
     display: grid;
@@ -213,13 +214,13 @@
   .company-sap { width: 100%;}
   .company-esdc { 
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 0;
   }
-  .company-virtamove { width: 100%; }
+  .company-virtamove { width: 100%; margin-top: 30px;}
   .company-healthcanada {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 0;
   }
 

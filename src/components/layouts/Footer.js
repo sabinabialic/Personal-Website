@@ -53,7 +53,7 @@ export default class Footer extends Component {
                                       <i className="fab fa-github social-icon"></i>
                                   </div>
                               </a>
-                              <a className="no-underline" href="mailto:sabina.bialic@email.com">
+                              <a className="no-underline" href="mailto:sabina.bialic@gmail.com">
                                   <div className="col-md-auto name">
                                       <i className="far fa-envelope social-icon"></i>
                                   </div>

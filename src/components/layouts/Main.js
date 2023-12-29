@@ -16,8 +16,11 @@ export default class MainPage extends Component {
                   SAP working on the development of the Marketing Cloud product.
                 </p>
                 <p>
-                  My interests include fullstack development, cross-platform development
-                  and blockchain technologies. I love to learn and work on new projects in my personal time!
+                  I am passionate about DevOps and love to work in the cloud! My favourite programming language is Java ☕
+                </p>
+                <p>
+                  Throughout my career I have gained experience working with Microsoft Azure and SAP BTP, Java and 
+                  Springboot for backend developmnet, and Javascript for frontend development.
                 </p>
               </div>
             </div>
