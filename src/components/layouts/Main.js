@@ -12,15 +12,17 @@ export default class MainPage extends Component {
               <div className="banner-content slide-in-blurred-left">
                 <h1>Welcome! <span role="img" aria-label="Hand">👋</span></h1>
                 <p>
-                  My name is <b>Sabina Bialic</b> and I am a <b>Software Developer</b> at
-                  SAP working on the development of the Marketing Cloud product.
+                  My name is <b>Sabina Bialic</b> and I am a <b>Release Engineer</b> at <b>PENN Entertainment </b> 
+                  working on designing and improving the release process to reduce toil, provide insights to 
+                  stakeholders, and ensure reliable changes.
                 </p>
                 <p>
-                  I am passionate about DevOps and love to work in the cloud! My favourite programming language is Java ☕
+                  I am passionate about DevOps and love to work on cloud infrastructure! My favourite programming language is Java ☕
                 </p>
                 <p>
                   Throughout my career I have gained experience working with Microsoft Azure and SAP BTP, Java and 
-                  Springboot for backend developmnet, and Javascript for frontend development.
+                  Springboot for backend developmnet, and Javascript for frontend development. I have also gained 
+                  hands-on experience working with Docker and Kubernetes for cloud orchestration.
                 </p>
               </div>
             </div>
