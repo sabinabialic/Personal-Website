@@ -162,7 +162,7 @@
 }
 
 .company-image-thescore {
-  width: 100%;
+  width: 90%;
   position: absolute;
   display: block;
   top: 50%;
@@ -171,7 +171,7 @@
 }
 
 .company-image-sap {
-  width: 70%;
+  width: 75%;
   position: absolute;
   display: block;
   top: 50%;
@@ -180,7 +180,7 @@
 }
 
 .company-image-esdc {
-  width: 85%;
+  width: 90%;
   position: absolute;
   display: block;
   top: 50%;
@@ -189,7 +189,7 @@
 }
 
 .company-image-virtamove {
-  width: 80%;
+  width: 85%;
   position: absolute;
   display: block;
   top: 50%;
