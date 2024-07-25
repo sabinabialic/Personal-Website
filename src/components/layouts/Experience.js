@@ -24,7 +24,7 @@ export default class Experience extends Component {
                       <img src={scoreLogo} alt="thescore" className="company-image-thescore" />
                       <div className="overlay-thescore">
                         <div className="company-desc text-black">
-                          <h4>PENN Entertainment | theScore</h4>
+                          <h4>PENN Interactive | theScore</h4>
                           <h5>Release Engineer</h5>
                           <p>April 2024 - Present</p>
                         </div>

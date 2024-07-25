@@ -12,7 +12,7 @@ export default class MainPage extends Component {
               <div className="banner-content slide-in-blurred-left">
                 <h1>Welcome! <span role="img" aria-label="Hand">👋</span></h1>
                 <p>
-                  My name is <b>Sabina Bialic</b> and I am a <b>Release Engineer</b> at <b>PENN Entertainment </b> 
+                  My name is <b>Sabina Bialic</b> and I am a <b>Release Engineer</b> at <b>PENN Interactive </b> 
                   working on designing and improving the release process to reduce toil, provide insights to 
                   stakeholders, and ensure reliable changes.
                 </p>
