@@ -23,7 +23,7 @@ export default class Experience extends Component {
                 <div class="div1">
                   <div className="card company-hashicorp">
                     <img src={hashicorpLogo} alt="hashicorp" className="company-image-hashicorp" />
-                    <div className="overlay-hashicorp">
+                    <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>HashiCorp</h4>
                         <h5>Software Engineer, Developer Workflows</h5>
@@ -36,7 +36,7 @@ export default class Experience extends Component {
                 <div class="div2">
                   <div className="card company-thescore">
                     <img src={scoreLogo} alt="thescore" className="company-image-thescore" />
-                    <div className="overlay-thescore">
+                    <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>PENN Entertainment | theScore</h4>
                         <h5>Release Engineer, SRE</h5>
@@ -49,7 +49,7 @@ export default class Experience extends Component {
                 <div class="div3">
                   <div className="card company-sap">
                     <img src={sapLogo} alt="SAP" className="company-image-sap" />
-                    <div className="overlay-sap">
+                    <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>SAP</h4>
                         <h5>DevOps Developer</h5>
@@ -62,7 +62,7 @@ export default class Experience extends Component {
                 <div class="div4">
                   <div className="card company-esdc">
                     <img src={esdcLogo} alt="ESDC" className="company-image-esdc" />
-                    <div className="overlay-esdc">
+                    <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>ESDC | EDSC</h4>
                         <h5>DevOps Developer</h5>
@@ -74,7 +74,22 @@ export default class Experience extends Component {
                   </div>
                 </div>
 
-{/*                 <div class="div5">
+{/*                 
+
+                <div class="div5">
+                  <div className="card company-virtamove">
+                    <img src={virtamoveLogo} alt="VirtaMove" className="company-image-virtamove" />
+                    <div className="overlay-virtamove">
+                      <div className="company-desc text-black">
+                        <h4>VirtaMove</h4>
+                        <h5>Software Developer Co-op</h5>
+                        <p>May 2019 - August 2019</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="div6">
                   <div className="card company-healthcanada">
                     <img src={healthcanadaLogo} alt="healthcanada" className="company-image-healthcanada" />
                     <div className="overlay-healthcanada">

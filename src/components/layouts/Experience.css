@@ -79,98 +79,14 @@
   position: relative;
 }
 
-.company-hashicorp:hover .overlay-hashicorp, .company-hashicorp:active .overlay-hashicorp {opacity: 1;}
-.company-thescore:hover .overlay-thescore, .company-thescore:active .overlay-thescore {opacity: 1;}
-.company-sap:hover .overlay-sap, .company-sap:active .overlay-sap {opacity: 1;}
-.company-esdc:hover .overlay-esdc, .company-esdc:active .overlay-esdc {opacity: 1;}
-.company-virtamove:hover .overlay-virtamove, .company-virtamove:active .overlay-virtamove {opacity: 1;}
-.company-healthcanada:hover .overlay-healthcanada, .company-healthcanada:active .overlay-healthcanada {opacity: 1;}
+.company-hashicorp:hover .overlay, .company-hashicorp:active .overlay {opacity: 1;}
+.company-thescore:hover .overlay, .company-thescore:active .overlay {opacity: 1;}
+.company-sap:hover .overlay, .company-sap:active .overlay {opacity: 1;}
+.company-esdc:hover .overlay, .company-esdc:active .overlay {opacity: 1;}
+.company-virtamove:hover .overlay, .company-virtamove:active .overlay {opacity: 1;}
+.company-healthcanada:hover .overlay, .company-healthcanada:active .overlay {opacity: 1;}
 
-.overlay-hashicorp {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #F3f3f3;
-  border-radius: 25px;
-}
-
-.overlay-thescore {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #F3f3f3;
-  border-radius: 25px;
-}
-
-.overlay-thescore {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #F3f3f3;
-  border-radius: 25px;
-}
-
-.overlay-sap {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #F3f3f3;
-  border-radius: 25px;
-}
-
-.overlay-esdc {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #F3f3f3;
-  border-radius: 25px;
-}
-
-.overlay-virtamove {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #F3f3f3;
-  border-radius: 25px;
-}
-
-.overlay-healthcanada {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -297,7 +213,7 @@
   .company-virtamove { width: 100%; margin-top: 30px; margin-left: 0%;}
   .company-healthcanada { width: 100%; margin-top: 30px; }
 
-  .company-image-hashicorp {width: 100%;}
+  .company-image-hashicorp {width: 90%;}
   .company-image-thescore {width: 80%;}
   .company-image-sap {width: 80%; }
   .company-image-healthcanada {width: 70%; }
