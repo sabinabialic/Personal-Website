@@ -89,7 +89,7 @@ hr {
 .col2 { grid-area: desc; }
 .col3 {
   grid-area: btns;
-  margin-left: 90px;
+  margin-left: 50%;
   justify-content: space-between;
 }
 .content {display: inline-flex;}
