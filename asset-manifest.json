@@ -1,19 +1,26 @@
 {
-  "main.css": "static/css/main.dafcb7f7.css",
-  "main.css.map": "static/css/main.dafcb7f7.css.map",
-  "main.js": "static/js/main.a5c95f78.js",
-  "main.js.map": "static/js/main.a5c95f78.js.map",
-  "static/media/HiitMe.png": "static/media/HiitMe.35e78618.png",
-  "static/media/Montserrat-Bold.ttf": "static/media/Montserrat-Bold.ade91f47.ttf",
-  "static/media/Montserrat-Regular.ttf": "static/media/Montserrat-Regular.ee653992.ttf",
-  "static/media/Raleway-Bold.ttf": "static/media/Raleway-Bold.f49f3d2d.ttf",
-  "static/media/Raleway-Regular.ttf": "static/media/Raleway-Regular.9942588a.ttf",
-  "static/media/Roboto-Bold.ttf": "static/media/Roboto-Bold.e07df86c.ttf",
-  "static/media/Roboto-Regular.ttf": "static/media/Roboto-Regular.11eabca2.ttf",
-  "static/media/SabinaBialicResume.pdf": "static/media/SabinaBialicResume.744fdf97.pdf",
-  "static/media/hashi.png": "static/media/hashi.54e72975.png",
-  "static/media/newdp.jpeg": "static/media/newdp.2ca776a1.jpeg",
-  "static/media/penn.png": "static/media/penn.a48132d8.png",
-  "static/media/sap.png": "static/media/sap.610af945.png",
-  "static/media/virtamove.png": "static/media/virtamove.028e2b0a.png"
+  "files": {
+    "main.css": "/static/css/main.b43495fa.css",
+    "main.js": "/static/js/main.fcd5a495.js",
+    "static/media/newdp.jpeg": "/static/media/newdp.daf946166dcb801ebf2c.jpeg",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Raleway-Bold.ttf": "/static/media/Raleway-Bold.38bff7e0cf0d28b23428.ttf",
+    "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.f745b86e2d3c3a774b2a.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.03523cf578d69fa92322.ttf",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.4f39c5796e60c9d8e732.ttf",
+    "static/media/HiitMe.png": "/static/media/HiitMe.b43b5590ce502f18b9b1.png",
+    "static/media/SabinaBialicResume.pdf": "/static/media/SabinaBialicResume.caab29a67f6ea9dcb2e0.pdf",
+    "static/media/penn.png": "/static/media/penn.80eb09b18eb9a84d8764.png",
+    "static/media/virtamove.png": "/static/media/virtamove.9968390ed1ce56d29af8.png",
+    "static/media/hashi.png": "/static/media/hashi.a17b05835482c80aac38.png",
+    "static/media/sap.png": "/static/media/sap.a55ffaaf17911958668e.png",
+    "index.html": "/index.html",
+    "main.b43495fa.css.map": "/static/css/main.b43495fa.css.map",
+    "main.fcd5a495.js.map": "/static/js/main.fcd5a495.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b43495fa.css",
+    "static/js/main.fcd5a495.js"
+  ]
 }
