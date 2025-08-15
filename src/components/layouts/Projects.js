@@ -15,7 +15,9 @@ export default class Projects extends Component {
               <div className="row">
                   <div className="project-description">
                       <div className="col1">
-                        <img src={hiitme} className='hiitme-image' alt="loading..." />
+                        <a href="https://youtu.be/QD5kjTQ-hKQ" target="_blank" rel="noopener noreferrer">
+                          <img src={hiitme} className='hiitme-image' alt="loading..." />
+                        </a>
                       </div>
 
                       <div className="col2">
