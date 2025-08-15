@@ -4,7 +4,7 @@ import resume from "../../assets/files/SabinaBialicResume.pdf";
 import { Link } from 'react-scroll';
 
 const Anchors = () => {
-    const anchorsArr = ["Projects", "Experience", "About"];
+    const anchorsArr = ["Projects", "Skills", "Experience", "About"];
     return (anchorsArr.map(item => { 
         return (
             <Link 
