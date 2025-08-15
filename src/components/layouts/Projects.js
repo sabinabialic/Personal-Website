@@ -3,7 +3,19 @@ import './Projects.css';
 import hiitme from '../../assets/images/HiitMe.png';
 
 export default class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showVideo: false
+    };
+  }
+
+  toggleVideo = () => {
+    this.setState({ showVideo: !this.state.showVideo });
+  }
+
   render() {
+    const { showVideo } = this.state;
     return (
       <div className="projects-wrapper">
         <div className="container">
@@ -15,9 +27,29 @@ export default class Projects extends Component {
               <div className="row">
                   <div className="project-description">
                       <div className="col1">
-                        <a href="https://youtu.be/QD5kjTQ-hKQ" target="_blank" rel="noopener noreferrer">
-                          <img src={hiitme} className='hiitme-image' alt="loading..." />
-                        </a>
+                        {!showVideo ? (
+                          <div className="video-thumbnail" onClick={this.toggleVideo}>
+                            <img src={hiitme} className='hiitme-image' alt="HiitMe Interval Timer Demo" />
+                            <div className="play-button">
+                              <i className="fas fa-play"></i>
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="video-container">
+                            <iframe
+                              width="100%"
+                              height="315"
+                              src="https://www.youtube.com/embed/QD5kjTQ-hKQ?autoplay=1"
+                              title="HiitMe Interval Timer Demo"
+                              frameBorder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen
+                            ></iframe>
+                            <button className="close-video-minimal" onClick={this.toggleVideo}>
+                              ×
+                            </button>
+                          </div>
+                        )}
                       </div>
 
                       <div className="col2">
