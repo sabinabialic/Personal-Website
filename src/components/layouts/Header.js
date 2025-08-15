@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
 import './Header.css';
 import resume from "../../assets/files/SabinaBialicResume.pdf";
+import { Link } from 'react-scroll';
 
 const Anchors = () => {
     const anchorsArr = ["Projects", "Experience", "About"];
-    return (anchorsArr.map(item => { return (<a key={item} href={`#${item}`}>{item}</a>) }));
+    return (anchorsArr.map(item => { 
+        return (
+            <Link 
+                key={item} 
+                to={item} 
+                smooth={true} 
+                duration={500} 
+                spy={true} 
+                exact='true' 
+                offset={-70}
+            >
+                {item}
+            </Link>
+        ) 
+    }));
 }
 
 export default class Header extends Component {
