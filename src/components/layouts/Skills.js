@@ -47,7 +47,7 @@ export default class Skills extends Component {
         const categories = [
             { key: 'languages', name: 'Languages & Frameworks', icon: '💻' },
             { key: 'cloud', name: 'Cloud & Containerization', icon: '☁️' },
-            { key: 'devops', name: 'DevOps Tools', icon: '🔧' }
+            { key: 'devops', name: 'DevOps Tools', icon: '⚙️' }
         ];
 
         return (

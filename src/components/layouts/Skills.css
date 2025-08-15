@@ -114,7 +114,6 @@
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #4895F0, #6B73FF);
     transform: scaleX(0);
     transition: transform 0.4s ease;
 }
@@ -138,7 +137,7 @@
 
 .skill-card:hover .skill-icon {
     transform: scale(1.1);
-    color: #6B73FF;
+    color: #4895F0;
 }
 
 .skill-name {
