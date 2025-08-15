@@ -28,9 +28,11 @@
 .social-icon { margin-right: 5px !important;}
 
 .created-by {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Raleway', sans-serif;
     margin-bottom: 20px;
     font-size: calc(10px + 0.2vw);
+    color: #4e4d5a;
+    font-weight: 400;
 }
 
 .blue-line {
