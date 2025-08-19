@@ -201,8 +201,8 @@ hr {
 .content1 {flex: 1;}
 .content2 {flex: 2;}
 
-@media (max-width: 950px) {
-  .projects-wrapper {margin-top: 10%; margin-bottom: 10%;}
+@media (max-width: 800px) {
+  .projects-wrapper {margin-top: 10%;}
 
   hr {visibility: collapse !important;}
 

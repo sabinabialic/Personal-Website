@@ -249,12 +249,16 @@
 	  display: flex;
 		justify-content: center;
 	  flex-wrap: wrap;
+		flex-direction: row;
 	}
 
 	.full-options {
 		margin-top: -10px;
 		font-size: calc(10px + 0.6vw);
 		white-space: nowrap;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
 	}
 	
 	.full-options a {

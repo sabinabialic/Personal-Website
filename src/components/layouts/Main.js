@@ -20,9 +20,9 @@ export default class MainPage extends Component {
                   I am passionate about DevOps and love to work on cloud infrastructure! My favourite programming language is Java ☕
                 </p>
                 <p>
-                  Throughout my career I have gained experience working with Microsoft Azure, Google Could, and SAP BTP. I have worked 
-                  with Python, Java, and Springboot for backend developmnet, and Javascript for frontend development. I have also gained 
-                  hands-on experience working with Docker and Kubernetes for cloud orchestration.
+                  Throughout my career I have gained experience working with SAP BTP, AWS, and Microsoft Azure. I have worked 
+                  with Python, Go, and Java for backend development, and Javascript for frontend development. I have also gained 
+                  hands-on experience working with Docker, Kubernetes, Terraform and CloudFoundry for cloud orchestration.
                 </p>
               </div>
             </div>

@@ -19,35 +19,54 @@ export default class Skills extends Component {
         const skillsData = {
             languages: [
                 { name: 'Java', icon: '☕' },
-                { name: 'Python', icon: '🐍' },
+                { name: 'Spring Boot', icon: '🌱' },
                 { name: 'Go', icon: '🐹' },
+                { name: 'Python', icon: '🐍' },
+                { name: 'Flask', icon: '⚗️' },
                 { name: 'JavaScript', icon: '🟨' },
                 { name: 'React', icon: '⚛️' },
                 { name: 'Dart', icon: '🎯' },
                 { name: 'Flutter', icon: '🌀' },
             ],
             cloud: [
-                { name: 'SAP BTP', icon: '💙' },
                 { name: 'AWS', icon: '🚀' },
                 { name: 'Microsoft Azure', icon: '☁️' },
-                { name: 'Docker', icon: '🐳' },
+                { name: 'SAP BTP', icon: '💙' },
                 { name: 'Kubernetes', icon: '⚙️' },
-                { name: 'Nomad', icon: '♻️' }
+                { name: 'Docker', icon: '🐳' },
+                { name: 'Nomad', icon: '♻️' },
+                { name: 'Terraform', icon: '🏗️' }
             ],
             devops: [
                 { name: 'Terraform', icon: '🏗️' },
-                { name: 'Vault', icon: '🔐' },
+                { name: 'ArgoCD', icon: '🐙' },
                 { name: 'Jenkins', icon: '🔨' },
                 { name: 'Github Actions', icon: '🖤' },
+                { name: 'Vault', icon: '🔐' },
+                { name: 'CircleCI', icon: '🔄' }
+            ],
+            ai: [
+                { name: 'Generative AI', icon: '✨' },
+                { name: 'RAG Architecture', icon: '📚' },
+                { name: 'Large Language Models (LLMs)', icon: '🧠' },
+                { name: 'Vector Databases', icon: '🗂️' },
+                { name: 'LangChain', icon: '🔗' },
+                { name: 'watsonx.ai', icon: '🤖' }
+            ],
+            monitoring: [
                 { name: 'DataDog', icon: '🐶' },
                 { name: 'Dynatrace', icon: '📈' },
+                { name: 'Kibana', icon: '📊' },
+                { name: 'Elasticsearch', icon: '🔍' }
             ]
         };
 
         const categories = [
             { key: 'languages', name: 'Languages & Frameworks', icon: '💻' },
             { key: 'cloud', name: 'Cloud & Containerization', icon: '☁️' },
-            { key: 'devops', name: 'DevOps Tools', icon: '⚙️' }
+            { key: 'devops', name: 'CI/CD & DevOps', icon: '⚙️' },
+            { key: 'ai', name: 'AI & Machine Learning', icon: '🧠' },
+            { key: 'monitoring', name: 'Observability & Monitoring', icon: '📊' }
         ];
 
         return (
