@@ -188,7 +188,7 @@
 .text-black h5 {color: #3c3b48;}
 .text-black p {color: rgb(68, 68, 68);}
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
 
   .parent {
     display: grid;
@@ -205,10 +205,10 @@
 
   .company-hashicorp { width: 100%; }
   .company-thescore { width: 100%; }
-  .company-sap { width: 100%; margin-top: 30px; margin-left: 0%; }
-  .company-esdc { width: 100%; margin-top: 30px; }
-  .company-virtamove { width: 100%; margin-top: 30px; margin-left: 0%;}
-  .company-healthcanada { width: 100%; margin-top: 30px; }
+  .company-sap { width: 100%; }
+  .company-esdc { width: 100%; }
+  .company-virtamove { width: 100%; }
+  .company-healthcanada { width: 100%; }
 
   .company-image-hashicorp {width: 90%;}
   .company-image-thescore {width: 80%;}

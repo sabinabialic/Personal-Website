@@ -1,4 +1,6 @@
 .say-hello {
+    width: 90%;
+    margin: 0 auto;
     align-content: center;
 }
 
@@ -28,6 +30,9 @@
 .social-icon { margin-right: 5px !important;}
 
 .created-by {
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 20px;
     font-size: calc(10px + 0.2vw);

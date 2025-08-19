@@ -239,7 +239,7 @@
 	.full-options { margin-top: 50px; }
 }
 
-/* On screens that are 800 or less */
+/* On screens that are 900 or less */
 @media screen and (max-width: 900px) {
 	.logo {
 	   float: center;
@@ -253,7 +253,19 @@
 
 	.full-options {
 		margin-top: -10px;
-		font-size: calc(10px + 0.8vw);
+		font-size: calc(10px + 0.6vw);
+		white-space: nowrap;
 	}
-	.resume-link { font-size: calc(10px + 0.8vw); padding-right: 20px;}
+	
+	.full-options a {
+		padding-left: 15px;
+		display: inline-block;
+		float: none;
+	}
+	
+	.resume-link { 
+		font-size: calc(10px + 0.6vw); 
+		padding-right: 15px;
+		white-space: nowrap;
+	}
 }

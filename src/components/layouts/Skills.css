@@ -314,13 +314,23 @@
     }
     
     .skills-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 0 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 0 15px;
     }
     
     .skill-card {
-        padding: 25px 20px;
+        padding: 20px 15px;
+        max-width: none;
+    }
+    
+    .skill-icon {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+    
+    .skill-name {
+        font-size: 1.1rem;
     }
     
     .learning-tags {
@@ -334,16 +344,33 @@
     }
     
     .skills-navigation {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 8px;
+        padding: 15px;
+        margin-bottom: 30px;
+        overflow-x: auto;
     }
     
     .skill-nav-btn {
-        width: 200px;
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        padding: 0;
+        font-size: 11px;
+        flex-shrink: 0;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
     
     .nav-text {
-        display: inline;
+        display: none;
+    }
+    
+    .nav-icon {
+        font-size: 18px;
     }
 }
