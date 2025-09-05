@@ -83,6 +83,47 @@ export default class Projects extends Component {
                   </div>
               </div>
           </div>
+
+          <div className="project-section">
+              <div className="row">
+                  <div className="project-description">
+                      <div className="col1">
+                        <div className="project-placeholder">
+                          <div className="placeholder-content">
+                            <i className="fas fa-shield-alt placeholder-icon"></i>
+                            <div className="placeholder-text">AI Security Auditor</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="col2">
+                        <div className="project-type">DevOps Tool</div>
+                        <div className="project-name">Automated IaC Security Auditor</div>
+                        <div className="content">
+                            <div className="content1"><hr /></div>
+                            <div className="content2">
+                                <p>
+                                    An <b>AI assistant</b> that automatically scans <b>Terraform</b> code, 
+                                    identifies potential security vulnerabilities, explains the risk, and 
+                                    suggests the corrected code block.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div className="col3">
+                        <a class="action-button" href="https://github.com/sabinabialic/ai-iac-security-auditor" rel="noreferrer" target="_blank">
+                          <span class="action-button-text">Github</span>
+                          <span class="action-button-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
+                        </a>
+                        <a class="action-button" href="https://github.com/marketplace/actions/ai-iac-security-auditor" rel="noreferrer" target="_blank">
+                          <span class="action-button-text">Marketplace</span>
+                          <span class="action-button-icon"><i class="fab fa-github" aria-hidden="true"></i></span>
+                        </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
         </div>
       </div>
     )
