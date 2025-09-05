@@ -51,7 +51,7 @@
 
 @media (max-width: 800px) {
     .footer-wrapper {
-        margin-top: auto;
+        margin-top: 60px;
     }
 
     .mobile-footer {
