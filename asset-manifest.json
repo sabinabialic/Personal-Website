@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f68db630.css",
-    "main.js": "/static/js/main.3ead7ba8.js",
+    "main.css": "/static/css/main.e3829af7.css",
+    "main.js": "/static/js/main.6030ad69.js",
     "static/media/newdp.jpeg": "/static/media/newdp.daf946166dcb801ebf2c.jpeg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
@@ -11,16 +11,20 @@
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.03523cf578d69fa92322.ttf",
     "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.4f39c5796e60c9d8e732.ttf",
     "static/media/SabinaBialicResume.pdf": "/static/media/SabinaBialicResume.533c723223155d10ce19.pdf",
+    "static/media/inverted-penn.png": "/static/media/inverted-penn.6980c15163d699eb81e2.png",
     "static/media/penn.png": "/static/media/penn.80eb09b18eb9a84d8764.png",
+    "static/media/esdc.png": "/static/media/esdc.5d6da21245c6588cc135.png",
+    "static/media/inverted-hashi.png": "/static/media/inverted-hashi.fcd59651b5bfc2372058.png",
+    "static/media/inverted-esdc.png": "/static/media/inverted-esdc.5d19b10545095e2a1e6c.png",
     "static/media/virtamove.png": "/static/media/virtamove.9968390ed1ce56d29af8.png",
     "static/media/hashi.png": "/static/media/hashi.a17b05835482c80aac38.png",
     "static/media/sap.png": "/static/media/sap.a55ffaaf17911958668e.png",
     "index.html": "/index.html",
-    "main.f68db630.css.map": "/static/css/main.f68db630.css.map",
-    "main.3ead7ba8.js.map": "/static/js/main.3ead7ba8.js.map"
+    "main.e3829af7.css.map": "/static/css/main.e3829af7.css.map",
+    "main.6030ad69.js.map": "/static/js/main.6030ad69.js.map"
   },
   "entrypoints": [
-    "static/css/main.f68db630.css",
-    "static/js/main.3ead7ba8.js"
+    "static/css/main.e3829af7.css",
+    "static/js/main.6030ad69.js"
   ]
 }
