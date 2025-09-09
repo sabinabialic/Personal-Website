@@ -72,3 +72,20 @@
         visibility: hidden;
     }
 }
+
+/* Dark Mode Styles */
+.dark-mode .say-hello h1 {
+    color: #ffffff;
+}
+
+.dark-mode .created-by {
+    color: #b3b3b3;
+}
+
+.dark-mode .no-underline {
+    color: #e0e0e0;
+}
+
+.dark-mode .no-underline:hover {
+    color: #4895F0;
+}

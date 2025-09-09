@@ -268,3 +268,48 @@ hr {
   .content1 {flex: 0;}
   .content2 {flex: auto;}
 }
+
+/* Dark Mode Styles */
+.dark-mode .projects-title {
+    color: #ffffff;
+}
+
+.dark-mode .project-type {
+    color: #4895F0;
+}
+
+.dark-mode .project-name {
+    color: #ffffff;
+}
+
+.dark-mode .project-description p {
+    color: #e0e0e0;
+}
+
+.dark-mode hr {
+    border-color: #4895F0;
+}
+
+.dark-mode .action-button {
+    background: #2a2a2a;
+    border-color: #404040;
+    color: #e0e0e0;
+}
+
+.dark-mode .action-button:hover {
+    background: #404040;
+    border-color: #4895F0;
+    color: #4895F0;
+}
+
+.dark-mode .close-video-minimal {
+    background: #e0e0e0;
+    color: #2a2a2a;
+    border-color: #e0e0e0;
+}
+
+.dark-mode .close-video-minimal:hover {
+    background: #4895F0;
+    color: white;
+    border-color: #4895F0;
+}

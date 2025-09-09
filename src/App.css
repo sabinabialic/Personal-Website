@@ -21,6 +21,18 @@
   text-align: center;
   background-color: white;
   font-family: "Roboto", "Montserrat", "Raleway";
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode Styles */
+.App.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.App.dark-mode .App-header {
+  background-color: #1a1a1a;
+  color: #ffffff;
 }
 
 .App-logo {

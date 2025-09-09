@@ -133,6 +133,19 @@ b,strong {
   font-weight: bold !important;
 }
 
+/* Dark Mode Styles */
+.dark-mode .banner-content {
+  color: #ffffff;
+}
+
+.dark-mode .banner-content h1 {
+  color: #ffffff;
+}
+
+.dark-mode .banner-content p {
+  color: #e0e0e0;
+}
+
 .me {
   width: 45vw;
   max-width: 500px;

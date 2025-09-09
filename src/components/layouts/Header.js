@@ -24,6 +24,7 @@ const Anchors = () => {
 
 export default class Header extends Component {
   render() {
+    const { darkMode, toggleDarkMode } = this.props;
     return (
         <div className="nav-bar">
             <div className="container">
@@ -42,6 +43,13 @@ export default class Header extends Component {
                                     View Resume
                                 </div>
                             </a>
+                            <button 
+                                className="dark-mode-toggle"
+                                onClick={toggleDarkMode}
+                                aria-label="Toggle dark mode"
+                            >
+                                {darkMode ? '☀️' : '🌙'}
+                            </button>
                             <Anchors />
                         </div>
                     </div>

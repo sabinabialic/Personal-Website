@@ -225,6 +225,56 @@
     text-decoration: none;
 }
 
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    float: right;
+    vertical-align: top;
+    margin-top: -8px;
+}
+
+.dark-mode-toggle:hover {
+    background: rgba(72, 149, 240, 0.1);
+    transform: scale(1.1);
+}
+
+/* Dark Mode Styles */
+.dark-mode .nav-bar {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .logo h1 {
+    color: #ffffff;
+}
+
+.dark-mode .full-options a {
+    color: #b3b3b3;
+}
+
+.dark-mode .full-options a:hover {
+    color: #4895F0;
+}
+
+.dark-mode .resume-link {
+    color: #4895F0;
+}
+
+.dark-mode .resume-link:hover {
+    color: #5ba3f5;
+}
+
 /* On screens that are 801 or more*/
 @media screen and (min-width: 801px) {
 	.logo {
@@ -265,6 +315,15 @@
 		padding-left: 15px;
 		display: inline-block;
 		float: none;
+	}
+	
+	.dark-mode-toggle {
+		margin-left: 15px;
+		margin-right: 0;
+		margin-top: 0;
+		float: none;
+		display: inline-flex;
+		vertical-align: baseline;
 	}
 	
 	.resume-link { 

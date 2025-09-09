@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 import './Experience.css';
 import hashicorpLogo from '../../assets/images/hashi.png';
+import hashicorpInvertedLogo from '../../assets/images/inverted-hashi.png';
 import scoreLogo from '../../assets/images/penn.png';
+import scoreInvertedLogo from '../../assets/images/inverted-penn.png';
 import sapLogo from '../../assets/images/sap.png';
 import esdcLogo from '../../assets/images/esdc.png';
+import esdcInvertedLogo from '../../assets/images/inverted-esdc.png';
 import virtamoveLogo from '../../assets/images/virtamove.png';
 import healthcanadaLogo from '../../assets/images/healthcanada.png';
 
 export default class Experience extends Component {
     render() {
+        const { darkMode } = this.props;
         return (
             <div id="experience" className="experience-wrapper">
               <div className="container">
@@ -22,7 +26,11 @@ export default class Experience extends Component {
               <div class="parent">
                 <div class="div1">
                   <div className="card company-hashicorp">
-                    <img src={hashicorpLogo} alt="hashicorp" className="company-image-hashicorp" />
+                    <img 
+                      src={darkMode ? hashicorpInvertedLogo : hashicorpLogo} 
+                      alt="hashicorp" 
+                      className="company-image-hashicorp" 
+                    />
                     <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>HashiCorp</h4>
@@ -35,7 +43,11 @@ export default class Experience extends Component {
 
                 <div class="div2">
                   <div className="card company-thescore">
-                    <img src={scoreLogo} alt="thescore" className="company-image-thescore" />
+                    <img 
+                      src={darkMode ? scoreInvertedLogo : scoreLogo} 
+                      alt="thescore" 
+                      className="company-image-thescore" 
+                    />
                     <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>PENN Entertainment | theScore</h4>
@@ -61,7 +73,11 @@ export default class Experience extends Component {
 
                 <div class="div4">
                   <div className="card company-esdc">
-                    <img src={esdcLogo} alt="ESDC" className="company-image-esdc" />
+                    <img 
+                      src={darkMode ? esdcInvertedLogo : esdcLogo} 
+                      alt="ESDC" 
+                      className="company-image-esdc" 
+                    />
                     <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>ESDC | EDSC</h4>
