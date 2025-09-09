@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f68db630.css",
-    "main.js": "/static/js/main.602a043a.js",
+    "main.js": "/static/js/main.3ead7ba8.js",
     "static/media/newdp.jpeg": "/static/media/newdp.daf946166dcb801ebf2c.jpeg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
@@ -10,17 +10,17 @@
     "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.f745b86e2d3c3a774b2a.ttf",
     "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.03523cf578d69fa92322.ttf",
     "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.4f39c5796e60c9d8e732.ttf",
-    "static/media/SabinaBialicResume.pdf": "/static/media/SabinaBialicResume.83ef01a80fb2ee8022c9.pdf",
+    "static/media/SabinaBialicResume.pdf": "/static/media/SabinaBialicResume.533c723223155d10ce19.pdf",
     "static/media/penn.png": "/static/media/penn.80eb09b18eb9a84d8764.png",
     "static/media/virtamove.png": "/static/media/virtamove.9968390ed1ce56d29af8.png",
     "static/media/hashi.png": "/static/media/hashi.a17b05835482c80aac38.png",
     "static/media/sap.png": "/static/media/sap.a55ffaaf17911958668e.png",
     "index.html": "/index.html",
     "main.f68db630.css.map": "/static/css/main.f68db630.css.map",
-    "main.602a043a.js.map": "/static/js/main.602a043a.js.map"
+    "main.3ead7ba8.js.map": "/static/js/main.3ead7ba8.js.map"
   },
   "entrypoints": [
     "static/css/main.f68db630.css",
-    "static/js/main.602a043a.js"
+    "static/js/main.3ead7ba8.js"
   ]
 }
