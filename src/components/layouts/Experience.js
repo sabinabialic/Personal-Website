@@ -34,7 +34,7 @@ export default class Experience extends Component {
                     <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>HashiCorp</h4>
-                        <h5>Software Engineer, Developer Workflows</h5>
+                        <h5>Platform Engineer II</h5>
                         <p>February 2025 - Present</p>
                       </div>
                     </div>
@@ -51,7 +51,7 @@ export default class Experience extends Component {
                     <div className="overlay">
                       <div className="company-desc text-black">
                         <h4>PENN Entertainment | theScore</h4>
-                        <h5>Release Engineer, SRE</h5>
+                        <h5>Release Engineer, SRE II</h5>
                         <p>April 2024 - January 2025</p>
                       </div>
                     </div>
