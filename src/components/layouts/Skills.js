@@ -26,16 +26,18 @@ export default class Skills extends Component {
                 { name: 'JavaScript', icon: '🟨' },
                 { name: 'React', icon: '⚛️' },
                 { name: 'Dart', icon: '🎯' },
-                { name: 'Flutter', icon: '🌀' },
-            ],
+                { name: 'Flutter', icon: '🌀' }            ],
             cloud: [
                 { name: 'AWS', icon: '🚀' },
+                { name: 'GCP', icon: '🌐' },
                 { name: 'Microsoft Azure', icon: '☁️' },
                 { name: 'SAP BTP', icon: '💙' },
                 { name: 'Kubernetes', icon: '⚙️' },
                 { name: 'Docker', icon: '🐳' },
                 { name: 'Nomad', icon: '♻️' },
-                { name: 'Terraform', icon: '🏗️' }
+                { name: 'Terraform', icon: '🏗️' },
+                { name: 'Helm', icon: '⛵' },
+                { name: 'Packer', icon: '📦' }
             ],
             devops: [
                 { name: 'Terraform', icon: '🏗️' },
@@ -51,13 +53,20 @@ export default class Skills extends Component {
                 { name: 'Large Language Models (LLMs)', icon: '🧠' },
                 { name: 'Vector Databases', icon: '🗂️' },
                 { name: 'LangChain', icon: '🔗' },
-                { name: 'watsonx.ai', icon: '🤖' }
+                { name: 'watsonx.ai', icon: '🤖' },
+                { name: 'AWS Bedrock', icon: '🛏️' }
             ],
             monitoring: [
                 { name: 'DataDog', icon: '🐶' },
                 { name: 'Dynatrace', icon: '📈' },
                 { name: 'Kibana', icon: '📊' },
-                { name: 'Elasticsearch', icon: '🔍' }
+                { name: 'Elasticsearch', icon: '🔍' },
+                { name: 'OpenTelemetry', icon: '📡' },
+                { name: 'Instana', icon: '📉' }
+            ],
+            streaming: [
+                { name: 'Kafka', icon: '📨' },
+                { name: 'AWS SQS', icon: '📬' }
             ]
         };
 
@@ -66,6 +75,7 @@ export default class Skills extends Component {
             { key: 'cloud', name: 'Cloud & Containerization', icon: '☁️' },
             { key: 'devops', name: 'CI/CD & DevOps', icon: '⚙️' },
             { key: 'ai', name: 'AI & Machine Learning', icon: '🧠' },
+            { key: 'streaming', name: 'Streaming & Messaging', icon: '📨' },
             { key: 'monitoring', name: 'Observability & Monitoring', icon: '📊' }
         ];
 
