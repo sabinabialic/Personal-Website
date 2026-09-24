@@ -92,6 +92,8 @@
 .skills-content {
     position: relative;
     z-index: 1;
+    min-height: 465px;
+    padding-bottom: 30px;
 }
 
 .skills-grid {
@@ -101,6 +103,7 @@
     width: 90%;
     margin: 0 auto;
     padding: 0 auto;
+    align-items: start;
 }
 
 @media screen and (min-width: 1200px) {
