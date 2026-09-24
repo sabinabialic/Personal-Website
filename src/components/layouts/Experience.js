@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Experience.css';
+import workosLogo from '../../assets/images/workos.png';
+import workosInvertedLogo from '../../assets/images/workos-inverted.png';
 import hashicorpLogo from '../../assets/images/hashi.png';
 import hashicorpInvertedLogo from '../../assets/images/inverted-hashi.png';
 import scoreLogo from '../../assets/images/penn.png';
@@ -25,6 +27,23 @@ export default class Experience extends Component {
 
               <div class="parent">
                 <div class="div1">
+                  <div className="card company-workos">
+                    <img 
+                      src={darkMode ? workosInvertedLogo : workosLogo} 
+                      alt="workos" 
+                      className="company-image-workos" 
+                    />
+                    <div className="overlay">
+                      <div className="company-desc text-black">
+                        <h4>WorkOS</h4>
+                        <h5>Senior Platform Engineer</h5>
+                        <p>October 2026 - Present</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="div2">
                   <div className="card company-hashicorp">
                     <img 
                       src={darkMode ? hashicorpInvertedLogo : hashicorpLogo} 
@@ -35,13 +54,13 @@ export default class Experience extends Component {
                       <div className="company-desc text-black">
                         <h4>HashiCorp</h4>
                         <h5>Platform Engineer II</h5>
-                        <p>February 2025 - Present</p>
+                        <p>February 2025 - October 2026</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="div2">
+                <div class="div3">
                   <div className="card company-thescore">
                     <img 
                       src={darkMode ? scoreInvertedLogo : scoreLogo} 
@@ -58,7 +77,7 @@ export default class Experience extends Component {
                   </div>
                 </div>
 
-                <div class="div3">
+                <div class="div4">
                   <div className="card company-sap">
                     <img src={sapLogo} alt="SAP" className="company-image-sap" />
                     <div className="overlay">
@@ -71,7 +90,7 @@ export default class Experience extends Component {
                   </div>
                 </div>
 
-                <div class="div4">
+                <div class="div5">
                   <div className="card company-esdc">
                     <img 
                       src={darkMode ? esdcInvertedLogo : esdcLogo} 
